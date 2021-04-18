@@ -24,4 +24,4 @@ yarn-error.log*
 
 .README.me 
 .env
-/.vscode
+.vscode/
