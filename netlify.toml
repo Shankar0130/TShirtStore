@@ -1,2 +1,4 @@
-CI=npm run biuld
-REACT_APP_BACKEND=https://boiling-atoll-30080.herokuapp.com/api/
+[context.production]
+  
+  command = "CI= npm run build"
+  environment = { REACT_APP_BACKEND="https://boiling-atoll-30080.herokuapp.com/api/" }
